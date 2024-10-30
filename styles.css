@@ -29,6 +29,11 @@ header h1 {
   font-size: 1.5rem;
 }
 
+header h1 a{
+  text-decoration: none;
+  color: inherit;
+}
+
 .sec-box {
   display: flex;
 }
@@ -144,8 +149,8 @@ nav a:hover {
 
 .about-image img {
   width: 100%;
-  border-radius: 50%;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  /* border-radius: 50%; */
+  box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Projects Section */
@@ -268,6 +273,19 @@ footer p {
 footer i{
   padding-right: 12px;
 }
+
+footer .socials a:hover .fa-instagram {
+  color: #e1306c !important;
+}
+
+footer .socials a:hover .fa-linkedin {
+  color: #0077b5 !important;
+}
+
+footer .socials a:hover .fa-envelope {
+  color: #D44638 !important;
+}
+
 /* Helps footer stay at the bottom */
 html {
   position: relative;
